@@ -42,35 +42,35 @@ Como funciona: Cada desenvolvedor obtém uma cópia completa do repositório (in
 
 Exemplos: Git, Mercurial, Bazaar.
 
-Vantagens:
+### Vantagens:
 
-Resistência a falhas: Se o servidor principal falhar, o histórico completo do projeto está em cada máquina de desenvolvedor.
+**Resistência a falhas:** Se o servidor principal falhar, o histórico completo do projeto está em cada máquina de desenvolvedor.
 
-Trabalho offline: Desenvolvedores podem fazer commits localmente mesmo sem conexão com a internet e sincronizar depois.
+**Trabalho offline:** Desenvolvedores podem fazer commits localmente mesmo sem conexão com a internet e sincronizar depois.
 
-Velocidade: Operações locais são geralmente mais rápidas.
+**Velocidade:** Operações locais são geralmente mais rápidas.
 
-Flexibilidade de fluxo de trabalho: Suporta uma variedade de modelos de colaboração (ramificação e mesclagem mais poderosas).
+**Flexibilidade de fluxo de trabalho:** Suporta uma variedade de modelos de colaboração (ramificação e mesclagem mais poderosas).
 
-Desvantagens:
+### Desvantagens:
 
-Curva de aprendizado inicial ligeiramente maior.
+>Curva de aprendizado inicial ligeiramente maior.
 
-Exige mais espaço em disco localmente para o histórico completo.
+>Exige mais espaço em disco localmente para o histórico completo.
 
-Onde o Git se encaixa?
+**Onde o Git se encaixa?**
 Git é o sistema de controle de versão distribuído mais popular e amplamente utilizado atualmente. Ele foi criado por Linus Torvalds (o criador do Linux) em 2005 para gerenciar o desenvolvimento do kernel Linux.
 
 Sua popularidade se deve à sua velocidade, design distribuído, forte suporte para ramificação e mesclagem, e sua capacidade de lidar com projetos de qualquer tamanho, desde pequenos scripts pessoais até grandes bases de código empresariais. Plataformas como GitHub, GitLab e Bitbucket são construídas em torno do Git, fornecendo hospedagem de repositórios e ferramentas de colaboração.
 
-Conceitos Fundamentais do Git
+### Conceitos Fundamentais do Git
 Ao trabalhar com Git, você encontrará alguns termos-chave:
 
-Repositório (Repository): O local onde o Git armazena todas as versões do seu projeto. Pode ser local (na sua máquina) ou remoto (em um servidor como GitHub).
+**Repositório (Repository):** O local onde o Git armazena todas as versões do seu projeto. Pode ser local (na sua máquina) ou remoto (em um servidor como GitHub).
 
-Commit: Um "instantâneo" das alterações feitas nos arquivos do seu projeto em um determinado momento. Cada commit tem uma mensagem que descreve as mudanças.
+**Commit:** Um "instantâneo" das alterações feitas nos arquivos do seu projeto em um determinado momento. Cada commit tem uma mensagem que descreve as mudanças.
 
-Branch (Ramificação): Uma linha de desenvolvimento independente. Você pode trabalhar em novas funcionalidades em um branch sem afetar o código principal (master/main).
+**Branch (Ramificação):** Uma linha de desenvolvimento independente. Você pode trabalhar em novas funcionalidades em um branch sem afetar o código principal (master/main).
 
 **Merge (Mesclar):** O processo de combinar as alterações de um branch em outro.
 
@@ -82,3 +82,8 @@ Branch (Ramificação): Uma linha de desenvolvimento independente. Você pode tr
 
 ## Conclusão
 >Um Sistema de Controle de Versão é uma ferramenta indispensável na engenharia de software moderna e em qualquer projeto que envolva a evolução de arquivos. O Git, como um DVCS líder, oferece a flexibilidade, o poder e a resiliência necessários para gerenciar projetos de forma colaborativa e eficiente. Entender os princípios de um VCS e como o Git funciona é o primeiro passo para uma melhor prática de desenvolvimento e gerenciamento de projetos.
+
+
+
+**---Link---**
+https://git-scm.com/doc
